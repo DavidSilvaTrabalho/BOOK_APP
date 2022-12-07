@@ -11,9 +11,9 @@ function Home() {
     })()
   },[])
   return (
-    <>
-      <div className='container'>
-        {data?.map((element) => {
+    <main>
+      <section className='container'>
+      {data?.map((element) => {
           return (
             <div className='card' key={element.book_id}>
               <h2>{element.book_title}</h2>
@@ -30,8 +30,8 @@ function Home() {
             </div>
           )
         })}
-      </div>
-    </>
+      </section>        
+    </main>
   )
 }
 

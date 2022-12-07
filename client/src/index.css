@@ -10,14 +10,18 @@ body {
 	min-height: 100vh;
 } */
 
+* {
+	font-family: Sofia, sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 html,
 body {
-	background-color: #2B3A55;
-	color: #F2E5E5;
-} 
-
-.title {
-	text-align: center;
+	background-color: #2b3a55;
+	color: #f2e5e5;
+	font-size: 70%;
 }
 
 .container {
@@ -59,7 +63,7 @@ body {
 	background: linear-gradient(
 		357deg,
 		rgba(2, 0, 36, 0.4) 0%,
-		rgba(9, 9, 121, 0.5228291145559787) 75%,
+		rgba(9, 9, 121, 0.523) 75%,
 		rgba(62, 124, 136, 0.4) 100%
-	)
+	);
 }

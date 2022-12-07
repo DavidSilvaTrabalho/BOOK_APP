@@ -4,7 +4,7 @@ import api_config from "../api/api_config";
 
 const method = {
 	getAllBooks: async (_) => {
-		const dataFetched = await fetch(api_config.SERVER_URL, {
+		const dataFetched = await fetch(api_config.MOCK_URL, {
 			method: "GET",
 		});
 
