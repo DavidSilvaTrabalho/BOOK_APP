@@ -14,8 +14,8 @@ function NavBar() {
 				<h1 tabIndex={1} className={styles.title}>Bookthemall</h1>
 			</div>
 
-			<div className={styles.input}>
-				<input type="text" placeholder="Search" />
+			<div>
+				<input className={styles.inputsearch} type="text" placeholder="Search" />
 			</div>
 
 			<div className={styles.containerbutton}>

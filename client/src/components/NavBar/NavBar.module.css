@@ -32,18 +32,23 @@ rgba(62, 124, 136, 0.4) 100% */
 	cursor: pointer;
 }
 
-input {
+.inputsearch {
 	outline: none;
 	outline-style: none;
 	min-width: 100%;
 	line-height: 1rem;
-}
-
-input::placeholder {
+	background-color: transparent;
+	border: none;
+	border-bottom: 1px solid var(--font-color-white);
+	border-bottom-color: var(--font-color-white);
 	color: var(--font-color-white);
 }
 
-input:focus {
+.inputsearch::placeholder {
+	color: var(--font-color-white);
+}
+
+.inputsearch:focus {
 	border-bottom-color: var(--color-bottom-input-animation);
 	transition: border-bottom-color 2s linear;
 }
