@@ -2,7 +2,7 @@ import {Router} from "express";
 import {bookController} from "../controllers/bookController.js";
 const router = Router();
 
-router.get("/", async (req, res) => {
+router.get("/api-v1", async (req, res) => {
 	res.json({
 		message: "Wellcome to Book API.v1!",
 	});

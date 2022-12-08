@@ -4,7 +4,8 @@ export const bookController = {
 	getAll: async (_, res) => {
 		const rows = await models.getAll();
 		console.log(rows);
-		return res.status(200).json({
+
+		return res.header("Access-Control-Allow-Origin",).status(200).json({
 			data: rows,
 		});
 	},
