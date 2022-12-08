@@ -20,7 +20,7 @@ function Edit() {
     <>
         <h2>Edit book</h2>
         <form onSubmit={handleSubmitForm}>
-            {/* <input type="text" value={""}/> */}
+            <input type="text" value={""}/>
         </form>
     </>
   ) 

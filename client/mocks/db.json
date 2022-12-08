@@ -1,64 +1,26 @@
-{
-  "data": [
-    {
-      "book_id": 1,
-      "book_title": "Game of Thrones",
-      "book_description": "A fantasy book tell a history about family' war",
-      "book_cover_url": "https://www.google.com/picture.jpg"
-    },
-    {
-      "book_id": 2,
-      "book_title": "Alice no pais das maravilhas",
-      "book_description": "Uma menina, um coelho e uma história capazes de fazer qualquer um de nós voltar a sonhar.",
-      "book_cover_url": "https://m.media-amazon.com/images/I/61AD--JL1KL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
-    },
-    {
-      "book_id": 3,
-      "book_title": "Alice no pais das maravilhas",
-      "book_description": "A arrebatadora história dos Targaryen ganha vida neste novo livro de George R.R. Martin.",
-      "book_cover_url": "https://m.media-amazon.com/images/I/51A19icLe6L._SX346_BO1,204,203,200_.jpg"
-    },
-    {
-      "book_id": 4,
-      "book_title": "titulo2",
-      "book_description": "description2",
-      "book_cover_url": "rul2"
-    },
-    {
-      "book_id": 5,
-      "book_title": "japan book",
-      "book_description": "An wonderful book",
-      "book_cover_url": "dasdasdasdsa"
-    },
-    {
-      "book_id": 6,
-      "book_title": "japanbook",
-      "book_description": "Anwonderfulbook",
-      "book_cover_url": "dasdasdasdsa"
-    },
-    {
-      "book_id": 9,
-      "book_title": "japanbook",
-      "book_description": "Anwonderfulbook",
-      "book_cover_url": "dasdasdasdsa"
-    },
-    {
-      "book_id": 10,
-      "book_title": "japanbook",
-      "book_description": "Anwonderfulbook",
-      "book_cover_url": "dasdasdasdsa"
-    },
-    {
-      "book_id": 13,
-      "book_title": "japan bookdasd",
-      "book_description": "Anwonderfulbook teste dasd",
-      "book_cover_url": "dasdasdasdsa  adasd dasd"
-    },
-    {
-      "book_id": 14,
-      "book_title": "FullMetal",
-      "book_description": "Anime book",
-      "book_cover_url": "https://images.alphacoders.com/108/108073.jpg"
-    }
-  ]
-}
+[
+  {
+    "book_id": "1",
+    "book_title": "Game of Thrones",
+    "book_description": "A fantasy book tell a history about family' war",
+    "book_cover_url": "https://i.harperapps.com/hcanz/covers/9780007459476/x293.jpg"
+  },
+  {
+    "book_id": "2",
+    "book_title": "Alice no pais das maravilhas",
+    "book_description": "Uma menina, um coelho e uma história capazes de fazer qualquer um de nós voltar a sonhar.",
+    "book_cover_url": "https://m.media-amazon.com/images/I/61AD--JL1KL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+  },
+  {
+    "book_id": "3",
+    "book_title": "Alice no pais das maravilhas",
+    "book_description": "A arrebatadora história dos Targaryen ganha vida neste novo livro de George R.R. Martin.",
+    "book_cover_url": "https://m.media-amazon.com/images/I/51A19icLe6L._SX346_BO1,204,203,200_.jpg"
+  },
+  {
+    "book_id": "4",
+    "book_title": "FullMetal",
+    "book_description": "Anime book",
+    "book_cover_url": "https://m.media-amazon.com/images/I/51EfKfNqnQL._SY344_BO1,204,203,200_QL70_ML2_.jpg"
+  }
+]

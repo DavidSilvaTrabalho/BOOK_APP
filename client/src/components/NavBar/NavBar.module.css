@@ -11,6 +11,7 @@ rgba(62, 124, 136, 0.4) 100% */
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
+	margin-top: 20px;
 }
 
 .logo {
@@ -36,27 +37,15 @@ input {
 	outline-style: none;
 	min-width: 100%;
 	line-height: 1rem;
-	/* padding: 2px 6px; */
-	background-color: transparent;
-	color: var(--font-color-white);
-	border: none;
-	border-bottom: 1px solid var(--font-color-white);
-	font-size: 1.4rem;
-	
-	/* transition: border-bottom-color 2s ease-in-out; */
-}
-
-input.caret-bar{
-	color: red;
 }
 
 input::placeholder {
 	color: var(--font-color-white);
 }
 
-input:focus{
+input:focus {
 	border-bottom-color: var(--color-bottom-input-animation);
-	transition: border-bottom-color	2s linear;
+	transition: border-bottom-color 2s linear;
 }
 
 .containerbutton {
@@ -85,19 +74,6 @@ button:hover {
 	animation-fill-mode: backwards;
 	animation-timing-function: ease-in;
 }
-
-/* @keyframes inputBorderColor {
-	to {
-		border-bottom-width: 0%;
-		border-bottom-color: #f2e5e5;
-		font-size: 10px;
-	}
-	from {
-		font-size: 50px;
-		border-bottom-width: 100%;
-		border-bottom-color: var(--color-bottom-input-animation);
-	}
-} */
 
 @keyframes buttonShake {
 	0% {
